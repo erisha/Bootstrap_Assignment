@@ -4,8 +4,8 @@
 } 
 
 .c-img {
-    /* /* height: 100%;  */
-    object-fit: cover; */
+     /* height: 100%;  */
+    /* object-fit: cover; */
 
 }
 
@@ -19,4 +19,8 @@ h1 {
     color: blueviolet;
     background-color: rgba(255, 255, 255, 0.359);
     
+}
+
+.categoryImg {
+    height: 33%;
 }
