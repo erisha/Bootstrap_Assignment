@@ -21,6 +21,10 @@ h1 {
     
 }
 
-.categoryImg {
+.catSection{
     height: 33%;
+}
+.categoryImg {
+    height: 480px;
+    /* width: 480px; */
 }
