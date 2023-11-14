@@ -21,10 +21,14 @@ h1 {
     
 }
 
-.catSection{
-    height: 33%;
+.catSection1{
+    display: flex;
+    width: 100%;
 }
 .categoryImg {
-    height: 480px;
+    /* height: 480px; */
     /* width: 480px; */
+    width: 100%;
+
 }
+
