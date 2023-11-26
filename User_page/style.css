@@ -2,12 +2,12 @@
     height: 680px;
     width: 680px;
 } 
-
+/* 
 .c-img {
-     /* height: 100%;  */
-    /* object-fit: cover; */
+     height: 100%;  */
+    /* object-fit: cover;
 
-}
+} */
 
 .landingCarouselTxt {
     color: navy;
