@@ -1,0 +1,25 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+    ),
+    url(../Graphics/teaAestheticBg.jpeg)
+        center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    ;
+
+    text-align: center;
+
+}
+
+.card {
+    background: linear-gradient(rgba(0, 0, 0, 0.261), rgba(0, 0, 255, 0.208));
+    border-radius: 25px;
+
+  
+}

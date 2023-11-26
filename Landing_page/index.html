@@ -8,10 +8,66 @@
     <title>Landing Page</title>
 </head>
 <body>
-   
+    <!-- NavBar -->
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+        <img src="../Graphics/logo.png" alt="logo" width="30" height="24">
+          </a>
+          <a class="navbar-brand" href="#">What's Tea?</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+            <a class="navbar-brand" href="#">
+            <img src="../Graphics/logo.png" alt="logo" width="30" height="24">
+          </a>
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">What's Tea?</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">My Account </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Shop
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Teas ☕</a></li>
+                    <li><a class="dropdown-item" href="#">Candles 🕯</a></li>
+                    <li>
+                    <li><a class="dropdown-item" href="#">Cups & Thingz 💖✨</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">All Products</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
     
+      <!-- Welcome Card -->
 
-
+      <div class="card">
+        <div class="card-body">
+          <h1>Welcome to What's Tea !</h1>
+          <h5>Shop our Zodiac Themed Tea, Candles, Cups & More !</h5>
+          <img src="../Graphics/logo.png" alt="logoLanding">
+        </div>
+      </div>
 
     
 
